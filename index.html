@@ -7,6 +7,12 @@
     <title></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./index.css" />
   </head>
   <!---------------------------------------------------------------------------------------------------------------------------->
@@ -14,16 +20,19 @@
     <header>
       <div id="navbar">
         <div class="site-logo">
-          <img
-            src="./assets/Final-k.Ullas_v5-02.png"
-            alt="logo"
-            class="main-logo"
-          />
+          <img src="./assets/Final-k.Ullas_v5-02.png" alt="logo" class="main-logo"/>
         </div>
-        <ul class="nav-list">
+
+        <button class="hamburger" id="hamburger">
+         <img src="./assets/icons8-menu.svg">
+        </button>
+
+        <ul class="nav-list" id="nav-list">
           <a href=""><li class="list-items">Community</li></a>
           <a href=""><li class="list-items">Content</li></a>
-          <a href="https://www.ukfmb.org/aartha.html"><button class="aartha">AARTHA</button></a>
+          <a href="https://www.ukfmb.org/aartha.html" class="list-items">
+            <button class="aartha">AARTHA</button>
+          </a>
         </ul>
 
     </div>
@@ -48,41 +57,47 @@
           />
         </div>
       </div>
+    </div>
 <!---------------------------------------------------------------------------------------------------------------------------->
 
 <div class="main-feature">
     <div class="main-feature-container">
+
      <div class="feature-intro">
      <h2>Exclusive program limited to <mark class="mark">20 seats</mark></h2>
      <p class="feature-intro-p">Invitations are sent based on interested family business and cohort combinations.</p>
-      </div>
+     </div>
 
-
+     <div class="features">
 
       <div class="feature-list">
        <img class="feature-icon" src="./assets/Asset1_e281ccca7f.png" alt="trophy">
-       <h1>Analysis</h1>
+       <h3>Analysis</h3>
        <p class="feature-intro-para">4 day residential program focused on addressing the major pain points that family businesses face today.</p>
      </div>
 
        <div class="feature-list">
          <img class="feature-icon" src="./assets/Asset_645dcf77c3.png" alt="trophy">
-         <h1>Coaching</h1>
+         <h3>Coaching</h3>
          <p class="feature-intro-para">Co-developed with veterans from the industry, the program features key cases delivered from an Indian context.</p>
        </div>
 
            <div class="feature-list">
              <img class="feature-icon" src="./assets/Asset3_60748205dd.png" alt="trophy">
-             <h1>Planning</h1>
+             <h3>Planning</h3>
              <p class="feature-intro-para">Equip participants with a toolkit that can catalyze the continued prosperity of their micro or small enterprises.</p>
            </div>
+          </div>
+
        </div>
     </div>
-</div>
+
+
+<!---------------------------------------------------------------------------------------------------------------------------->
 
 <div class="learning-topics-wrapper">
  <div class="learning-topics">
-   <h1>What are you interested in? </h1>
+   <h3>What are you interested in? </h3>
    <ul class="topics-names">
      <a href="#"><li class="topic-categories">📚 Family focused</li></a>
      <a href="#"><li class="topic-categories">🧠 Succession Planning </li></a>
@@ -94,8 +109,8 @@
 </div>
 
 <!---------------------------------------------------------------------------------------------------------------------------->
-<div class="main-feature">
-    <div class="main-feature-container">
+<div class="speaker-wrapper">
+    <div class="speaker-container">
 
       <div class="feature-intro">
         <h2>Learn from stalwarts in the family business area</h2>
@@ -113,30 +128,33 @@
           <img class="speaker-icon" src="./assets/SQ0u3hx1_g.jpg"  alt="trophy">
           <h1 class="speakers-intro">Sid Pai</h1>
           <p class="speaker-bio">Head Operations Fabricspa</p>
+          <a href="https://www.linkedin.com/in/sid-pai-71761619b/" target="_blank"><img class="speaker-social"  src="./assets/linkedin1.png" alt="social-icon"/></a>
           </div>
 
           <div class="feature-list-speakers">
-            <img class="speaker-icon" src="./assets/speaker icon.png" alt="trophy">
+            <img class="speaker-icon" src="./assets/[removal.ai]_tmp-60f9aa0201ca3.png" alt="trophy">
             <h1 class="speakers-intro">Naganand Doraswamy </h1>
             <p class="speaker-bio">MP/Founder Ideaspring Capital</p>
+            <a href="https://www.linkedin.com/in/sid-pai-71761619b/" target="_blank"><img class="speaker-social"  src="./assets/linkedin1.png" alt="social-icon"/></a>
            </div>
 
             <div class="feature-list-speakers">
-                <img class="speaker-icon" src="./assets/speaker icon.png"  alt="trophy">
+                <img class="speaker-icon" src="./assets/1Z0RJwTP_f-removebg-preview.png"  alt="trophy">
                 <h1 class="speakers-intro">Gururaj Acharya</h1>
                 <p class="speaker-bio">Joint MD Jyothy Labs</p>
+                <a href="https://www.linkedin.com/in/sid-pai-71761619b/" target="_blank"><img class="speaker-social"  src="./assets/linkedin1.png" alt="social-icon"/></a>
             </div>
 
       </div>
   </div>
 </div>
 <!---------------------------------------------------------------------------------------------------------------------------->
-   <div class="main-feature">
+   <div class="ukfmb-insights">
      <div class="main-container-content">
         <div class="main-section-left">
-          <h1 class="content-title">Discover UKFMB Insights</h1>
+          <h2 class="content-title">Discover UKFMB Insights</h2>
           <p class="hero-intro-content">
-            Learn and get inspired daily with access to short and insightful content.
+            Learn and get inspired daily with access to short and insightful content
           </p>
           <div>
             <p class="hero-intro-content">
@@ -167,7 +185,7 @@
    <!---------------------------------------------------------------------------------------------------------------------------->
     <footer>
       <div class="main-feature-container-footer">
-        <div class="feature-list-footer">
+        <div class="feature-list-footer-1">
           <img
             src="./assets/footer logo.png"
             alt="logo"
@@ -201,35 +219,19 @@
             <h1 class="footer-items-heading">Company</h1>
            <a href=""><li class="footer-links">About Us</li></a>
            <a href=""><li class="footer-links">NITTE</li></a>
-           <a href=""><li class="footer-links">Privacy Policy</li></a>
-           <a href=""><li class="footer-links">Legal Disclaimer</li></a>
+           <a href=""><li class="footer-links">Privacy</li></a>
+           <a href=""><li class="footer-links">Legal</li></a>
           </ul>
         </div>
       </div>
     </footer>
     <!---------------------------------------------------------------------------------------------------------------------------->
-    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
 
+    <script type="text/javascript" src="/nav.js"></script>
 
-<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
-
-<script>
-
-  var firebaseConfig = {
-    apiKey: "AIzaSyCcGVhoS5v424uioM5h7ashFTj_WSuvoXQ",
-    authDomain: "ukfmbapp.firebaseapp.com",
-    projectId: "ukfmbapp",
-    storageBucket: "ukfmbapp.appspot.com",
-    messagingSenderId: "645826721734",
-    appId: "1:645826721734:web:a49984e64976b0d707e4c7",
-    measurementId: "G-LNJDNDQN3G"
-  };
-
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-</script>
 <!-- Start of HubSpot Embed Code -->
 <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/24879597.js"></script>
 <!-- End of HubSpot Embed Code -->
+
   </body>
 </html>
