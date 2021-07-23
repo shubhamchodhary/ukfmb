@@ -4,7 +4,7 @@ body {
   padding: 0;
   min-height: 100vh;
   overflow-x: hidden;
-  background-color: #fcfcfc;
+  background-color: #ffffff;
   max-width: 100%;
   font-family: "Inter", sans-serif;
 }
@@ -426,6 +426,7 @@ a button {
 
 .content-features {
   margin-top: 1.5rem;
+  text-align: start;
 }
 
 /*-------------------------------------------------------------------------------------*/
