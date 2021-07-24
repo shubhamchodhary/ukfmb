@@ -565,7 +565,7 @@ footer {
   .main-container {
     padding: 0 1rem;
     flex-direction: column;
-    margin-top: 3rem;
+    margin-top: 1.5rem;
   }
 
   .hero-intro {
@@ -691,9 +691,6 @@ footer {
     flex-direction: column;
     justify-content: center;
   }
-  .main-container {
-
-    margin-top: 2rem;
-  }
+ 
 }
 
