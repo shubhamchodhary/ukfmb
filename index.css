@@ -691,5 +691,9 @@ footer {
     flex-direction: column;
     justify-content: center;
   }
+  .main-container {
+
+    margin-top: 2rem;
+  }
 }
 
