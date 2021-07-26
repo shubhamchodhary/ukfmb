@@ -371,6 +371,11 @@ p {
         list-style-type: none;
         color: black;
       }
+.footer-links:hover {
+
+    color: #335eea;
+
+  }
 
       .footer-items a {
         align-items: flex-start;
