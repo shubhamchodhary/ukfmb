@@ -153,7 +153,6 @@ p {
     text-align: center;
     flex: 1;
     border-radius: 5px;
-    font-size: 0.875rem;
     text-align: center;
 
   }
@@ -165,13 +164,13 @@ p {
 }
 
 .feature-intro-para {
-    font-size: clamp(1rem, 1.5vw, 2rem);
+    font-size: 19px;
   line-height: 1.4;
   color: #3a4649;
-  font-weight: lighter;
   word-wrap: break-word;
-  line-height: 1.4;
+  line-height: 1.4em;
   margin-top: 2rem;
+  font-weight: 400px;
 
 }
 
@@ -298,15 +297,16 @@ p {
     line-height: 0.8;
     word-wrap: break-word;
     line-height: 1em;
+    font-size: 32px;
   }
 
   .hero-intro {
-    font-size: clamp(1.5rem, 1.5vw, 2rem);
+    font-size: 19px;
     line-height: 1.4;
     color: #3a4649;
-    font-weight: lighter;
+    font-weight: 400;
     word-wrap: break-word;
-    line-height: 1.4;
+    line-height: 1.4em;
     margin-top: 2rem;
   }
 
@@ -610,6 +610,7 @@ p {
         .main-container-2 {
           flex-direction: column-reverse;
         }
+        
       }
 
       @media only screen and (max-width: 500px) {
