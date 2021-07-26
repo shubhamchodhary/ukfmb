@@ -470,6 +470,12 @@ footer {
   color: black;
 }
 
+.footer-links:hover {
+
+    color: #335eea;
+
+  }
+
 .footer-items a {
   align-items: flex-start;
   color: #9fa4a9;
