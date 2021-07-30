@@ -105,6 +105,7 @@ color: white;
 .site-logo {
   display: flex;
 }
+
 .main-logo {
   max-width: 350px;
   max-height: 66px;
@@ -548,7 +549,7 @@ footer {
 }
 
 /*-----------------------------------------------------------------------------*/
-@media (max-width:1280px){
+@media screen and (max-width:1280px){
   
    .title {
     font-size: 50px;
@@ -587,6 +588,11 @@ footer {
   .title {
     font-size: 40px;
   }
+  
+  .main-logo {
+  max-width: 300px;
+  max-height: 66px;
+}
 
   .hero-image-insights {
     max-width: 350px;
