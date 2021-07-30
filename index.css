@@ -589,10 +589,6 @@ footer {
     font-size: 40px;
   }
   
-  .main-logo {
-  max-width: 300px;
-  max-height: 66px;
-}
 
   .hero-image-insights {
     max-width: 350px;
@@ -613,6 +609,12 @@ footer {
     flex-direction: column;
     margin-top: 3rem;
   }
+  
+    .main-logo {
+  max-width: 300px;
+  max-height: 66px;
+}
+
 
   .hero-intro {
     font-size: 16px;
@@ -741,4 +743,9 @@ footer {
 
     margin-top: 2rem;
   }
+    .main-logo {
+  max-width: 300px;
+  max-height: 66px;
+}
+
 }
