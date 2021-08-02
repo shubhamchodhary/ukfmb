@@ -1,0 +1,241 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: white;
+  max-width: 100%;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+}
+
+h1 {
+
+  font-size: 42px;
+  margin: 0;
+  font-weight: 700;
+  color: #03314b;
+  line-height: 1.4em;
+
+}
+
+h2 {
+  font-size: 32px;
+  margin: 0;
+  font-weight: 600;
+  color: #03314b;
+  line-height: 1.4em;
+}
+
+h3 {
+  font-size: 24px;
+  color: #03314b;
+  font-weight: 550;
+  line-height: 1.4em;
+
+}
+
+p {
+  font-size: 18px;
+  font-weight: normal;
+  color: #3a4649;
+  word-wrap: break-word;
+  line-height: 1.4em;
+}
+
+#navbar {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1.5rem;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .nav-list {
+    list-style-type: none;
+    text-decoration: none;
+  }
+
+  .hamburger {
+    background-color: transparent;
+    border: 0;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+  }
+
+  .hamburger:focus {
+    outline: none;
+  }
+
+  .list-items {
+    display: inline-block;
+    padding: 0 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #3a4649;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+  }
+
+  .list-items:hover {
+    background-color: rgb(233, 233, 233);
+    padding: 6px 12px;
+    transform: scale(1.1);
+
+
+  }
+
+  .aartha {
+    padding: 12px 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f5821f;
+    color: #3a4649;
+    cursor: pointer;
+    font-weight: 500;
+    font-weight: 600;
+  font-size: 20px;
+  color: white;
+  }
+
+  .aartha:hover {
+    background-color: #002333;
+    color: #84ffbd;
+  }
+
+  .site-logo {
+    display: flex;
+  }
+
+  .main-logo {
+    max-width: 350px;
+    max-height: 66px;
+  }
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    color: #002333;
+    max-width: 1200px;
+    margin: 3rem auto;
+  }
+
+  .landing-container-content {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    color: #002333;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 0;
+    margin-top: 2rem;
+    text-align: center;
+    max-width: 80%;
+
+  }
+
+
+
+footer {
+    background-color: #f1f6f4;
+    margin-top: 5rem;
+  }
+
+  .site-info {
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.4em;
+    color: #03314b;
+    margin-top: 2px;
+  }
+
+  .footer-items-heading {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4em;
+    color: #03314b;
+    margin: 0 0 0.5rem;
+  }
+
+  .footer-items {
+    align-items: flex-start;
+    text-align: left;
+    color: #002333;
+    padding: 0;
+  }
+
+  .footer-links {
+    font-size: 18px;
+    margin-bottom: 8px;
+    list-style-type: none;
+    color: #3a4649;
+  }
+
+  .footer-items a {
+    align-items: flex-start;
+    color: #9fa4a9;
+    padding: 0;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1.4em;
+  }
+
+  .feature-list-footer-1 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 1rem 4rem 1rem 0;
+    flex: 1;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 15px;
+    text-align: left;
+  }
+
+  .feature-list-footer {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    margin: 1rem;
+    flex: 1;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: left;
+  }
+
+  .main-feature-container-footer {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .main-logo-footer {
+    max-width: 250px;
+    margin-bottom: 1rem;
+  }
