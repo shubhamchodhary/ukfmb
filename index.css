@@ -452,7 +452,22 @@ a button {
 form {
   align-items: center;
   justify-content: center;
+  display: flex;
 }
+
+.subscribe {
+  padding: 1rem 2rem;
+  border: none;
+  background-color: #2b3b88;
+  color: white;
+  border-radius: 5px;
+  font-stretch: 100%;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
 
 /*-------------------------------------------------------------------------------------*/
 
