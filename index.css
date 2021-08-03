@@ -630,7 +630,7 @@ footer {
     margin-top: 3rem;
   }
   
-  form {
+  #form {
     flex-direction: column;
   }
    
@@ -756,7 +756,7 @@ footer {
     margin-bottom: 6rem;
   }
   .feature-list-footer {
-    align-items: flex-start:
+    align-items: flex-start;
   }
 }
 
