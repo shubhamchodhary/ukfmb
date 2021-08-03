@@ -80,8 +80,6 @@ header {
   background-color: rgb(233, 233, 233);
   padding: 6px 12px;
   transform: scale(1.1);
-
-
 }
 
 .aartha {
@@ -189,8 +187,10 @@ a button {
 }
 
 .hero-image {
-  max-width: 500px;
+  width: 95%;
+max-height: 600px;
 }
+
 
 /*--------------------------------------------------------------*/
 .main-feature {
