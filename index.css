@@ -630,6 +630,11 @@ footer {
     margin-top: 3rem;
   }
   
+  form {
+    flex-direction: column;
+  }
+   
+  
     .main-logo {
   max-width: 300px;
   max-height: 66px;
@@ -749,6 +754,9 @@ footer {
 
   .main-section-right-content {
     margin-bottom: 6rem;
+  }
+  .feature-list-footer {
+    align-items: flex-start:
   }
 }
 
