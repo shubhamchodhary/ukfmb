@@ -207,7 +207,7 @@ h3 {
   flex-direction: column;
   margin-bottom: auto;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-start;
   flex: 1;
 }
 
