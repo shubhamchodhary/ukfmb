@@ -221,7 +221,7 @@ h3 {
   margin-bottom: auto;
   justify-content: center;
   align-items: center;
-  width: 40%;
+  flex: 1;
 }
 
 .pedagogy-wrapper-img {
