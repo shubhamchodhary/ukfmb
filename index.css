@@ -545,13 +545,13 @@ footer {
   .programme-overview-wrapper {
     padding: 0;
     flex-direction: column-reverse;
-    gap: 1rem;
+    gap: 2rem;
   }
 
   .programme-overview-wrapper-middle {
     padding: 0;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
   }
 
   .programme-overview-left {
