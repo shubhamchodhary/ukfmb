@@ -5,116 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>AARTHA - A learning center dedicated to catalyze the continued prosperity of micro and small enterprises in India.</title>
+    <title>
+      AARTHA - A learning center dedicated to catalyze the continued prosperity
+      of micro and small enterprises in India.
+    </title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="./aartha.css" />
-    <link rel="shortcut icon" type="image/jpg" href="./assets/Final-k.Ullas_v5-02.jpg" />
-
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="./assets/Final-k.Ullas_v5-02.jpg"
+    />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MXZFBWPY1C"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-MXZFBWPY1C"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-MXZFBWPY1C');
-</script>
-
+      gtag("config", "G-MXZFBWPY1C");
+    </script>
   </head>
 
   <!---------------------------------------------------------------------------------------------------------------------------->
+  <body>
+    <header>
+      <div id="navbar">
+        <div class="site-logo">
+          <a href="https://shu8hampanwar.github.io/ukfmb/"
+            ><img
+              src="./assets/update image 29 july.png"
+              alt="logo"
+              class="main-logo"
+          /></a>
+        </div>
 
-  <header>
-    <div id="navbar">
-      <div class="site-logo">
-       <a href="https://shu8hampanwar.github.io/ukfmb/"><img src="./assets/update image 29 july.png" alt="logo" class="main-logo"/></a>
+        <button class="hamburger" id="hamburger">
+          <img src="./assets/icons8-menu.svg" />
+        </button>
+
+        <ul class="nav-list" id="nav-list">
+          <a href="./about"><li class="list-items">Home</li></a>
+        </ul>
       </div>
-
-      <button class="hamburger" id="hamburger">
-       <img src="./assets/icons8-menu.svg">
-      </button>
-
-      <ul class="nav-list" id="nav-list">
-
-        <a href="./about"><li class="list-items">Organisation</li></a>
-        <a href="https://www.linkedin.com/company/k-ullas-kamath-center-for-family-managed-business/"><li class="list-items">LinkedIn</li></a>
-
-      </ul>
-
-  </div>
-  </header>
+    </header>
 
     <!---------------------------------------------------------------------------------------------------------------------------->
-<div class="hero">
-        <div class="main-container">
-
-
-
-<p>Please enter password to access this page.</p>
-    <form name="login">
-      Password: <input name="pass" size="6" type="password" />
-      <input value="Login" onclick="pasuser(this.form)" type="button" />
-    </form>
-     <script language="javascript">
-      function pasuser(form) {
-        if (form.pass.value == "12345678") {
-          location =
-            "https://shubhampanwar.notion.site/shubhampanwar/Disha-December-2021-019f08fa5ea44ba69ab4ce19e2c2d25c";
-        } else {
-          alert("Wrong Password");
-        }
-      }
-    </script>
-<script src="./index.js"></script>
-
-
-
-
-   </div>
-
-  </div>
-
- <!---------------------------------------------------------------------------------------------------------------------------->
-
- <footer>
-      <div class="main-feature-container-footer">
-        <div class="feature-list-footer-1">
-          <img
-            src="./assets/footer logo.png"
-            alt="logo"
-            class="main-logo-footer"
-          />
-          <p class="site-info">
-            An Initiative of NITTE Educational Trust & Jaya Foundation
-          </p>
-          <p class="site-info">
-            503 Prestige Center Point, Cunningham Road, Bangalore 560051
-          </p>
-        </div>
-
-        <div class="feature-list-footer">
-          <ul class="footer-items">
-            <h1 class="footer-items-heading">Company</h1>
-            <a href="./about"><li class="footer-links">About Us</li></a>
-            <a href="http://www.nitte.edu.in/"><li class="footer-links">NITTE</li></a>
-            <a href="./Privacy"><li class="footer-links">Privacy</li></a>
-            <a href="./Legal"><li class="footer-links">Legal</li></a>
-          </ul>
-        </div>
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+      "
+    >
+      <div class="main-container">
+        <p>Please enter password to access this page.</p>
+        <form name="login">
+          Password: <input name="pass" size="6" type="password" />
+          <input value="Login" onclick="pasuser(this.form)" type="button" />
+        </form>
+        <script language="javascript">
+          function pasuser(form) {
+            if (form.pass.value == "12345678") {
+              location =
+                "https://shubhampanwar.notion.site/shubhampanwar/Disha-December-2021-019f08fa5ea44ba69ab4ce19e2c2d25c";
+            } else {
+              alert("Wrong Password");
+            }
+          }
+        </script>
+        <script src="./index.js"></script>
       </div>
-    </footer>
+    </div>
 
-<!---------------------------------------------------------------------------------------------------------------------------->
+    <!---------------------------------------------------------------------------------------------------------------------------->
 
+    <!---------------------------------------------------------------------------------------------------------------------------->
 
-<script type="text/javascript" src="./nav.js"></script>
+    <script type="text/javascript" src="./nav.js"></script>
 
-
-<!---------------------------------------------------------------------------------------------------------------------------->
+    <!---------------------------------------------------------------------------------------------------------------------------->
   </body>
 </html>
