@@ -59,9 +59,15 @@ header {
   align-items: center;
   flex-direction: column;
 }
-.nav-list {
-  list-style-type: none;
-  text-decoration: none;
+.blog {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(58, 58, 58);
+}
+.blog:hover {
+  cursor: pointer;
+  color: Black;
+  border-bottom: 3px solid Blue;
 }
 
 .hamburger {
